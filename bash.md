@@ -13,3 +13,5 @@ sudo apt-get install mmv
 
 mmv a\* b\#1
 ```
+a\* : chercher n'importer quel fichier commençant par "a"
+b\#1 : remplacer par b suivi de toutes les suites trouvées
