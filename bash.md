@@ -12,6 +12,8 @@ for f in *_duplicated.xml; do mv -- "$f" "${f%_duplicated.xml}.xml"; done
 sudo apt-get install mmv
 
 mmv a\* b\#1
+
+mmv \*lesouvriersdesde01sociuoft_\*.xml lesouvriersdesde01sociuoft_\#2.xml
 ```
 a\* : chercher n'importer quel fichier commençant par "a"
 b\#1 : remplacer par b suivi de toutes les suites trouvées
